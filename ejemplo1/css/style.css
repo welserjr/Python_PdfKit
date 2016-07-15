@@ -1,0 +1,142 @@
+body{
+	background-color: #0099CC;
+	color: #FFFFFF;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+#wrapper{
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin: auto;
+	max-width: 1000px;
+}
+
+header{
+	background-color: #0099CC;
+	padding: 10px 8px;
+}
+
+#logo{
+	
+}
+
+#menu_social{
+	float: right;
+	margin-top: -45px;
+}
+
+#li_social{
+	list-style: none;
+}
+
+#li_social li {
+	float: left;
+	margin-left: 8px;
+}
+
+#li_social li a{
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	filter:gray;
+}
+
+#li_social li a:hover{
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+}
+
+form{
+	float: right;
+	margin: 2px;
+	margin-top: -70px;
+	padding: 0px 4px;
+}
+
+#user {
+	border: 1px solid white;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 0.7em;
+	height: 1.6em;
+	padding: 4px;
+	width: 14.5em;
+}
+
+#pass {
+	border: 1px solid white;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 0.7em;
+	height: 1.6em;
+	padding: 4px;
+	width: 9em;
+}
+
+#btn_login{
+	background-color: #0EB7DD;
+	border: 0px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	color: #FFFFFF;
+	height: 1.8em;
+	padding: 0px;
+	width: 4.5em;
+}
+
+#btn_signup{
+	background-color: #88979A;
+	border-radius: 5px;
+	color: #000000;
+	font-size: 0.8em;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#btn_login:hover{
+	background-color: #1F8FB4;
+}
+
+#btn_signup:hover{
+	background-color: #AEB9BC;
+}
+
+nav {
+	background: #FFFFFF;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: 2px solid #0099CC;
+	margin: 0 auto;
+	margin-top: -20px;
+	margin-bottom: -10px;
+	height: 30px;
+	max-width: 605px;
+}
+
+#nav_li{	
+	list-style: none;
+}
+
+#nav_li li{
+	float: left;	
+	line-height: 30px;
+	padding: 0 7px;
+	text-transform: uppercase;
+}
+
+#nav_li a{
+	color: #0099CC;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#nav_li a:hover{
+	color: #000000;
+}
+
+p{
+	color: steelblue;
+}
